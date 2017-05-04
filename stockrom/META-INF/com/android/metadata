@@ -1,0 +1,3 @@
+post-build=Xiaomi/lineage_mocha/mocha:6.0.1/MOB31K/ddee2531d6:userdebug/test-keys
+post-timestamp=1492522618
+pre-device=mocha
