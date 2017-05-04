@@ -1,0 +1,19 @@
+*** ./smali/com/android/server/policy/PhoneWindowManager.smali	2017-05-04 23:50:01.649924104 +0800
+--- /home/tomin/devel/miui/patchrom/mocha/temp/new_smali/services.jar.out/./smali/com/android/server/policy/PhoneWindowManager.smali	2017-05-04 23:53:58.201701954 +0800
+***************
+*** 463,469 ****
+  
+  .field mLidState:I
+  
+! .field private final mLock:Ljava/lang/Object;
+  
+  .field mLockScreenTimeout:I
+  
+--- 463,469 ----
+  
+  .field mLidState:I
+  
+! .field final mLock:Ljava/lang/Object;
+  
+  .field mLockScreenTimeout:I
+  

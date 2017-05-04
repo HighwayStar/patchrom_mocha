@@ -1,0 +1,13 @@
+*** ./smali/com/android/server/SystemServer.smali	2017-05-04 23:50:13.454312689 +0800
+--- /home/tomin/devel/miui/patchrom/mocha/temp/new_smali/services.jar.out/./smali/com/android/server/SystemServer.smali	2017-05-04 23:54:08.782050634 +0800
+***************
+*** 142,147 ****
+--- 142,149 ----
+      .param p0, "args"    # [Ljava/lang/String;
+  
+      .prologue
++     invoke-static {}, Lmiui/patchrom/ClassHook;->initServerHook()V
++ 
+      new-instance v0, Lcom/android/server/SystemServer;
+  
+      invoke-direct {v0}, Lcom/android/server/SystemServer;-><init>()V
